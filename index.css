@@ -186,6 +186,8 @@ body > main > p.download-wrapper > .download {
   transition: box-shadow 0.2s;
 }
 body > main .download:hover {
+  transform: translateY(-3%);
+  transition: transform 10.9s;
   box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.2);
 }
 .selfIntroduction {
